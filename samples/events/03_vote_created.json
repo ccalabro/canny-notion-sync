@@ -1,0 +1,10 @@
+{
+  "created": "2026-11-09T20:06:00.000Z",
+  "object": {
+    "id": "vote_1",
+    "postID": "post_00_notion",
+    "voterID": "u2"
+  },
+  "objectType": "vote",
+  "type": "vote.created"
+}

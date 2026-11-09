@@ -1,0 +1,16 @@
+[
+  {
+    "id": "board_integrations",
+    "created": "2019-01-10T12:00:00.000Z",
+    "name": "Integrations",
+    "postCount": 20,
+    "url": "https://demo.canny.io/admin/board/integrations"
+  },
+  {
+    "id": "board_bugs",
+    "created": "2019-02-01T12:00:00.000Z",
+    "name": "Bug Reports",
+    "postCount": 3,
+    "url": "https://demo.canny.io/admin/board/bug-reports"
+  }
+]

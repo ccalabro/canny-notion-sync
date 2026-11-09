@@ -1,0 +1,749 @@
+[
+  {
+    "id": "post_00_notion",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_notion",
+      "name": "Notion",
+      "postCount": 5,
+      "url": "https://demo.canny.io/admin/board/integrations?category=notion"
+    },
+    "commentCount": 0,
+    "created": "2019-01-01T12:00:00.000Z",
+    "details": "Push Canny posts into a Notion database. Title, details, status, and score.",
+    "score": 258,
+    "status": "under review",
+    "statusChangedAt": "2026-01-15T14:00:00.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      },
+      {
+        "id": "tag_sync",
+        "name": "sync",
+        "postCount": 6,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=sync"
+      }
+    ],
+    "title": "Notion",
+    "url": "https://demo.canny.io/admin/board/integrations/p/notion"
+  },
+  {
+    "id": "post_01_two-way-sync-with-ai",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 3,
+    "created": "2019-02-02T12:00:00.000Z",
+    "details": "Keep Airtable and Canny statuses in sync both ways.",
+    "score": 91,
+    "status": "planned",
+    "statusChangedAt": "2026-02-15T14:03:07.000Z",
+    "tags": [
+      {
+        "id": "tag_sync",
+        "name": "sync",
+        "postCount": 6,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=sync"
+      }
+    ],
+    "title": "Two way sync with Airtable",
+    "url": "https://demo.canny.io/admin/board/integrations/p/two-way-sync-with-airtable"
+  },
+  {
+    "id": "post_02_github-issues-two-wa",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 6,
+    "created": "2019-03-03T12:00:00.000Z",
+    "details": "Link posts to GitHub issues and sync status.",
+    "score": 74,
+    "status": "in progress",
+    "statusChangedAt": "2026-03-15T14:06:14.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "GitHub issues two way",
+    "url": "https://demo.canny.io/admin/board/integrations/p/github-issues-two-way"
+  },
+  {
+    "id": "post_03_linear-status-sync",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 9,
+    "created": "2019-04-04T12:00:00.000Z",
+    "details": "Update Linear when a Canny status changes.",
+    "score": 63,
+    "status": "planned",
+    "statusChangedAt": "2026-04-15T14:09:21.000Z",
+    "tags": [
+      {
+        "id": "tag_sync",
+        "name": "sync",
+        "postCount": 6,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=sync"
+      }
+    ],
+    "title": "Linear status sync",
+    "url": "https://demo.canny.io/admin/board/integrations/p/linear-status-sync"
+  },
+  {
+    "id": "post_04_public-roadmap-embed",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_slack",
+      "name": "Slack",
+      "postCount": 2,
+      "url": "https://demo.canny.io/admin/board/integrations?category=slack"
+    },
+    "commentCount": 12,
+    "created": "2019-05-05T12:00:00.000Z",
+    "details": "Embed the public roadmap on a marketing site.",
+    "score": 55,
+    "status": "complete",
+    "statusChangedAt": "2026-05-15T14:12:28.000Z",
+    "tags": [
+      {
+        "id": "tag_export",
+        "name": "export",
+        "postCount": 2,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=export"
+      }
+    ],
+    "title": "Public roadmap embed",
+    "url": "https://demo.canny.io/admin/board/integrations/p/public-roadmap-embed"
+  },
+  {
+    "id": "post_05_csv-export-of-votes",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 15,
+    "created": "2019-06-06T12:00:00.000Z",
+    "details": "Download a CSV of votes with company and MRR.",
+    "score": 48,
+    "status": "open",
+    "statusChangedAt": "2026-06-15T14:15:35.000Z",
+    "tags": [
+      {
+        "id": "tag_export",
+        "name": "export",
+        "postCount": 2,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=export"
+      }
+    ],
+    "title": "CSV export of votes",
+    "url": "https://demo.canny.io/admin/board/integrations/p/csv-export-of-votes"
+  },
+  {
+    "id": "post_06_slack-status-alerts",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_slack",
+      "name": "Slack",
+      "postCount": 2,
+      "url": "https://demo.canny.io/admin/board/integrations?category=slack"
+    },
+    "commentCount": 1,
+    "created": "2019-07-07T12:00:00.000Z",
+    "details": "Post to a Slack channel when a status changes.",
+    "score": 41,
+    "status": "in progress",
+    "statusChangedAt": "2026-07-15T14:18:42.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "Slack status alerts",
+    "url": "https://demo.canny.io/admin/board/integrations/p/slack-status-alerts"
+  },
+  {
+    "id": "post_07_asana-task-create",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 4,
+    "created": "2019-08-08T12:00:00.000Z",
+    "details": "Create an Asana task from a planned post.",
+    "score": 37,
+    "status": "under review",
+    "statusChangedAt": "2026-08-15T14:21:49.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "Asana task create",
+    "url": "https://demo.canny.io/admin/board/integrations/p/asana-task-create"
+  },
+  {
+    "id": "post_08_clickup-link",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 7,
+    "created": "2019-09-09T12:00:00.000Z",
+    "details": "Link ClickUp tasks the way Jira links work.",
+    "score": 33,
+    "status": "open",
+    "statusChangedAt": "2026-09-15T14:24:56.000Z",
+    "tags": [],
+    "title": "ClickUp link",
+    "url": "https://demo.canny.io/admin/board/integrations/p/clickup-link"
+  },
+  {
+    "id": "post_09_microsoft-teams-bot",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_slack",
+      "name": "Slack",
+      "postCount": 2,
+      "url": "https://demo.canny.io/admin/board/integrations?category=slack"
+    },
+    "commentCount": 10,
+    "created": "2019-10-10T12:00:00.000Z",
+    "details": "A Teams bot for voting from chat.",
+    "score": 29,
+    "status": "closed",
+    "statusChangedAt": "2026-01-15T14:27:03.000Z",
+    "tags": [],
+    "title": "Microsoft Teams bot",
+    "url": "https://demo.canny.io/admin/board/integrations/p/microsoft-teams-bot"
+  },
+  {
+    "id": "post_10_salesforce-opportuni",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 13,
+    "created": "2019-11-11T12:00:00.000Z",
+    "details": "Attach opportunities to posts without Zapier.",
+    "score": 26,
+    "status": "planned",
+    "statusChangedAt": "2026-02-15T14:30:10.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "Salesforce opportunity link",
+    "url": "https://demo.canny.io/admin/board/integrations/p/salesforce-opportunity-link"
+  },
+  {
+    "id": "post_11_hubspot-deal-sync",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 16,
+    "created": "2019-12-12T12:00:00.000Z",
+    "details": "Pull deal stage into a custom field.",
+    "score": 24,
+    "status": "under review",
+    "statusChangedAt": "2026-03-15T14:33:17.000Z",
+    "tags": [
+      {
+        "id": "tag_sync",
+        "name": "sync",
+        "postCount": 6,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=sync"
+      }
+    ],
+    "title": "HubSpot deal sync",
+    "url": "https://demo.canny.io/admin/board/integrations/p/hubspot-deal-sync"
+  },
+  {
+    "id": "post_12_intercom-conversatio",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_slack",
+      "name": "Slack",
+      "postCount": 2,
+      "url": "https://demo.canny.io/admin/board/integrations?category=slack"
+    },
+    "commentCount": 2,
+    "created": "2019-01-13T12:00:00.000Z",
+    "details": "Attach Intercom conversations to a post.",
+    "score": 21,
+    "status": "open",
+    "statusChangedAt": "2026-04-15T14:36:24.000Z",
+    "tags": [],
+    "title": "Intercom conversation attach",
+    "url": "https://demo.canny.io/admin/board/integrations/p/intercom-conversation-attach"
+  },
+  {
+    "id": "post_13_custom-webhook-filte",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": {
+      "id": "cat_zapier",
+      "name": "Zapier",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/integrations?category=zapier"
+    },
+    "commentCount": 5,
+    "created": "2019-02-14T12:00:00.000Z",
+    "details": "Filter which boards fire a webhook.",
+    "score": 19,
+    "status": "in progress",
+    "statusChangedAt": "2026-05-15T14:39:31.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "Custom webhook filters",
+    "url": "https://demo.canny.io/admin/board/integrations/p/custom-webhook-filters"
+  },
+  {
+    "id": "post_14_roadmap-swimlanes-by",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": null,
+    "commentCount": 8,
+    "created": "2019-03-15T12:00:00.000Z",
+    "details": "Group roadmap columns by tag.",
+    "score": 17,
+    "status": "open",
+    "statusChangedAt": "2026-06-15T14:42:38.000Z",
+    "tags": [
+      {
+        "id": "tag_export",
+        "name": "export",
+        "postCount": 2,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=export"
+      }
+    ],
+    "title": "Roadmap swimlanes by tag",
+    "url": "https://demo.canny.io/admin/board/integrations/p/roadmap-swimlanes-by-tag"
+  },
+  {
+    "id": "post_15_board-level-permissi",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": null,
+    "commentCount": 11,
+    "created": "2019-04-16T12:00:00.000Z",
+    "details": "Read private board membership from the API.",
+    "score": 15,
+    "status": "under review",
+    "statusChangedAt": "2026-07-15T14:45:45.000Z",
+    "tags": [
+      {
+        "id": "tag_api",
+        "name": "api",
+        "postCount": 8,
+        "url": "https://demo.canny.io/admin/board/integrations?tags=api"
+      }
+    ],
+    "title": "Board level permissions API",
+    "url": "https://demo.canny.io/admin/board/integrations/p/board-level-permissions-api"
+  },
+  {
+    "id": "post_16_duplicate-post-detec",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_integrations",
+      "created": "2019-01-10T12:00:00.000Z",
+      "name": "Integrations",
+      "postCount": 20,
+      "url": "https://demo.canny.io/admin/board/integrations"
+    },
+    "category": null,
+    "commentCount": 14,
+    "created": "2019-05-17T12:00:00.000Z",
+    "details": "Suggest duplicates when creating a post.",
+    "score": 14,
+    "status": "planned",
+    "statusChangedAt": "2026-08-15T14:48:52.000Z",
+    "tags": [],
+    "title": "Duplicate post detection",
+    "url": "https://demo.canny.io/admin/board/integrations/p/duplicate-post-detection"
+  },
+  {
+    "id": "post_17_mobile-vote-from-ema",
+    "author": {
+      "id": "u3",
+      "name": "Jordan Lee",
+      "email": "jordan@example.com",
+      "isAdmin": true,
+      "created": "2019-06-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/jordan",
+      "userID": "3"
+    },
+    "board": {
+      "id": "board_bugs",
+      "created": "2019-02-01T12:00:00.000Z",
+      "name": "Bug Reports",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/bug-reports"
+    },
+    "category": null,
+    "commentCount": 0,
+    "created": "2019-06-18T12:00:00.000Z",
+    "details": "One tap vote from the weekly digest.",
+    "score": 12,
+    "status": "open",
+    "statusChangedAt": "2026-09-15T14:51:59.000Z",
+    "tags": [],
+    "title": "Mobile vote from email",
+    "url": "https://demo.canny.io/admin/board/bug-reports/p/mobile-vote-from-email"
+  },
+  {
+    "id": "post_18_dark-mode-portal",
+    "author": {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "isAdmin": false,
+      "created": "2020-01-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/alex",
+      "userID": "1"
+    },
+    "board": {
+      "id": "board_bugs",
+      "created": "2019-02-01T12:00:00.000Z",
+      "name": "Bug Reports",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/bug-reports"
+    },
+    "category": null,
+    "commentCount": 3,
+    "created": "2019-07-19T12:00:00.000Z",
+    "details": "A dark theme for the public portal.",
+    "score": 11,
+    "status": "complete",
+    "statusChangedAt": "2026-01-15T14:54:06.000Z",
+    "tags": [],
+    "title": "Dark mode portal",
+    "url": "https://demo.canny.io/admin/board/bug-reports/p/dark-mode-portal"
+  },
+  {
+    "id": "post_19_timezone-aware-etas",
+    "author": {
+      "id": "u2",
+      "name": "Sam Chen",
+      "email": "sam@example.com",
+      "isAdmin": false,
+      "created": "2020-02-01T00:00:00.000Z",
+      "url": "https://demo.canny.io/admin/users/sam",
+      "userID": "2"
+    },
+    "board": {
+      "id": "board_bugs",
+      "created": "2019-02-01T12:00:00.000Z",
+      "name": "Bug Reports",
+      "postCount": 3,
+      "url": "https://demo.canny.io/admin/board/bug-reports"
+    },
+    "category": null,
+    "commentCount": 6,
+    "created": "2019-08-20T12:00:00.000Z",
+    "details": "Show ETA dates in the viewer's timezone.",
+    "score": 9,
+    "status": "open",
+    "statusChangedAt": "2026-02-15T14:57:13.000Z",
+    "tags": [],
+    "title": "Timezone aware ETAs",
+    "url": "https://demo.canny.io/admin/board/bug-reports/p/timezone-aware-etas"
+  }
+]

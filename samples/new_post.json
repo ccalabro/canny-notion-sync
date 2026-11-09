@@ -1,0 +1,41 @@
+{
+  "id": "post_new_two-way-notion",
+  "author": {
+    "id": "u1",
+    "name": "Alex Rivera",
+    "email": "alex@example.com",
+    "isAdmin": false,
+    "created": "2020-01-01T00:00:00.000Z",
+    "url": "https://demo.canny.io/admin/users/alex",
+    "userID": "1"
+  },
+  "board": {
+    "id": "board_integrations",
+    "created": "2019-01-10T12:00:00.000Z",
+    "name": "Integrations",
+    "postCount": 20,
+    "url": "https://demo.canny.io/admin/board/integrations"
+  },
+  "category": {
+    "id": "cat_notion",
+    "name": "Notion",
+    "postCount": 5,
+    "url": "https://demo.canny.io/admin/board/integrations?category=notion"
+  },
+  "commentCount": 0,
+  "created": "2026-11-09T20:00:00.000Z",
+  "details": "A fresh request for two way Notion sync.",
+  "score": 1,
+  "status": "open",
+  "statusChangedAt": "2026-11-09T20:00:00.000Z",
+  "tags": [
+    {
+      "id": "tag_sync",
+      "name": "sync",
+      "postCount": 6,
+      "url": "https://demo.canny.io/admin/board/integrations?tags=sync"
+    }
+  ],
+  "title": "Two way sync with Notion databases",
+  "url": "https://demo.canny.io/admin/board/integrations/p/two-way-sync-with-notion-databases"
+}
