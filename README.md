@@ -116,7 +116,7 @@ My assumptions:
 ## Limits
 
 * This is not affiliated with Canny or Notion. It is a small helper I wrote from their public API docs.
-* The demo and the tests run against fakes built from the docs. I have not tested this against a live Canny workspace or a live Notion database in this repository. If you do, a second `backfill` should report every row unchanged.
+* I tested this live on November 10, 2026 against a free Canny workspace (no card) and a real Notion database, on a small board of 3 posts. I ran `setup`, then `backfill`. That backfill created 3 rows (`3 created, 0 updated, 0 unchanged`). I ran `backfill` again and it reported `0 created, 0 updated, 3 unchanged`, with no Notion writes. I tested the webhook receiver only against signed fake events, not live Canny webhooks yet. The demo and the tests still run against fakes built from the docs.
 * It is one way, Canny to Notion. Edits made in Notion to the synced columns get overwritten on the next change. Other columns you add are left alone.
 * The Free plan includes API and webhooks per Canny's docs. Rate limits on Free are lower (5 requests per second, 100 per minute, 1,000 per hour), so a large board should use a moderate page size.
 * The receiver answers 200 first and writes to Notion after. If a Notion write fails, the event is not retried, so a periodic backfill is the safety net.
